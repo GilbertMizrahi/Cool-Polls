@@ -1,0 +1,22 @@
+{
+  "name": "cool-polls",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "meteor-node-stubs": "~0.2.0",
+    "moment": "^2.13.0",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-masonry-component": "^4.0.4",
+    "react-mounter": "^1.2.0"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
