@@ -1,0 +1,112 @@
+normalize-css()
+
+// Material Shadows
+shadow-level(l = 1)
+    if l == 1
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+    if l == 2
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+    if l == 3
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+
+// Common Transition
+trans($sec = 0.3s)
+    transition: all $sec ease
+
+html
+    box-sizing border-box
+    font-size 16px//responsive 12px 21px
+    font-range 420px 1280px
+
+*, *:before, *:after
+    box-sizing: inherit
+
+z = {
+    lowest: 1
+}
+
+// Common Transition
+trans($sec = 0.3s)
+    transition: all $sec ease
+
+.poll
+    width 380px
+    background #FFF
+    padding 5px 20px 10px 20px
+    margin-bottom 20px
+    position relative
+    z-index lowest//1
+    shadow-level(1)
+    trans()
+
+    h3
+        font-size: 1.2em;
+        opacity: 0.7;
+        width 80%
+        margin 2px
+
+    .question
+      margin-top 0
+      margin-bottom 10px
+      padding-bottom 5px
+      border-bottom: rgba(0,0,0, 0.2) solid 2px
+    button
+        margin-top 20px
+
+    .rec
+      fill lightblue
+
+    .rec-bgd
+      fill #eee
+      &.view
+        fill lightblue
+        fill-opacity 0.3
+        &:hover
+          fill-opacity 0.8
+
+    .bar
+      position relative
+      width 90%
+      display inline-block
+      &.view
+        width 100%
+        cursor pointer
+
+    .badge
+      margin-top: 3px;
+      padding:  0 6px;
+      line-height: 18px;
+      font-size: 12px;
+      background: #068AB8;
+      border-radius: 5px;
+      color #eee
+      display inline-block
+
+    .badge-info
+      font-size: 16px;
+      margin-top 9px
+      background: orange
+    .pull-right
+      float right
+
+    .option
+      position: absolute;
+      z-index: 1;
+      left: 5px;
+      top: 0;
+      font-size 1.2em
+      &.posted
+        pointer-events none
+        top 2px
+    .svg //.svg-voted
+      display inline-block
+    .poll-footer
+      margin-top 10px
+      border-top: rgba(0,0,0, 0.2) solid 1px
+
+    &:hover
+        shadow-level(3)
+        animation card 0.6s ease 1 forwards
+
+.gallery
+  margin 30px
