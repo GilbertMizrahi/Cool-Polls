@@ -1,0 +1,205 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   '--save',
+1 verbose cli   'react-addons-pure-render-mixin' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.0
+4 verbose install initial load of C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\package.json
+5 verbose installManyTop reading scoped package data from C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\classnames\package.json
+6 verbose installManyTop reading scoped package data from C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\meteor-node-stubs\package.json
+7 verbose installManyTop reading scoped package data from C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\moment\package.json
+8 verbose installManyTop reading scoped package data from C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\react\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\react-dom\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\react-masonry-component\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\react-mounter\package.json
+12 verbose readDependencies loading dependencies from C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\package.json
+13 silly cache add args [ 'react-addons-pure-render-mixin', null ]
+14 verbose cache add spec react-addons-pure-render-mixin
+15 silly cache add parsed spec Result {
+15 silly cache add   raw: 'react-addons-pure-render-mixin',
+15 silly cache add   scope: null,
+15 silly cache add   name: 'react-addons-pure-render-mixin',
+15 silly cache add   rawSpec: '',
+15 silly cache add   spec: 'latest',
+15 silly cache add   type: 'tag' }
+16 silly addNamed react-addons-pure-render-mixin@latest
+17 verbose addNamed "latest" is being treated as a dist-tag for react-addons-pure-render-mixin
+18 info addNameTag [ 'react-addons-pure-render-mixin', 'latest' ]
+19 silly mapToRegistry name react-addons-pure-render-mixin
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/react-addons-pure-render-mixin
+23 verbose addNameTag registry:https://registry.npmjs.org/react-addons-pure-render-mixin not in flight; fetching
+24 verbose request uri https://registry.npmjs.org/react-addons-pure-render-mixin
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 6:07:09 PM
+27 verbose request id 575486ed3af9bdc6
+28 verbose etag "5YBZ4USISUIKJG73H653L9B8K"
+29 http request GET https://registry.npmjs.org/react-addons-pure-render-mixin
+30 http 200 https://registry.npmjs.org/react-addons-pure-render-mixin
+31 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 verbose headers   etag: '"3UUJV5CNFU2WRMD1J1SBXGYC7"',
+31 verbose headers   'content-type': 'application/json',
+31 verbose headers   'content-encoding': 'gzip',
+31 verbose headers   'cache-control': 'max-age=300',
+31 verbose headers   'content-length': '4956',
+31 verbose headers   'accept-ranges': 'bytes',
+31 verbose headers   date: 'Wed, 20 Jul 2016 22:07:09 GMT',
+31 verbose headers   via: '1.1 varnish',
+31 verbose headers   age: '129',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'x-served-by': 'cache-bos8231-BOS',
+31 verbose headers   'x-cache': 'HIT',
+31 verbose headers   'x-cache-hits': '1',
+31 verbose headers   'x-timer': 'S1469052429.652966,VS0,VE0',
+31 verbose headers   vary: 'Accept-Encoding' }
+32 silly get cb [ 200,
+32 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+32 silly get     etag: '"3UUJV5CNFU2WRMD1J1SBXGYC7"',
+32 silly get     'content-type': 'application/json',
+32 silly get     'content-encoding': 'gzip',
+32 silly get     'cache-control': 'max-age=300',
+32 silly get     'content-length': '4956',
+32 silly get     'accept-ranges': 'bytes',
+32 silly get     date: 'Wed, 20 Jul 2016 22:07:09 GMT',
+32 silly get     via: '1.1 varnish',
+32 silly get     age: '129',
+32 silly get     connection: 'keep-alive',
+32 silly get     'x-served-by': 'cache-bos8231-BOS',
+32 silly get     'x-cache': 'HIT',
+32 silly get     'x-cache-hits': '1',
+32 silly get     'x-timer': 'S1469052429.652966,VS0,VE0',
+32 silly get     vary: 'Accept-Encoding' } ]
+33 verbose get saving react-addons-pure-render-mixin to C:\Users\Gilberto\AppData\Roaming\npm-cache\registry.npmjs.org\react-addons-pure-render-mixin\.cache.json
+34 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+35 silly addNameTag next cb for react-addons-pure-render-mixin with tag latest
+36 silly addNamed react-addons-pure-render-mixin@15.2.1
+37 verbose addNamed "15.2.1" is a plain semver version for react-addons-pure-render-mixin
+38 silly mapToRegistry name react-addons-pure-render-mixin
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry uri https://registry.npmjs.org/react-addons-pure-render-mixin
+42 verbose addRemoteTarball https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.2.1.tgz not in flight; adding
+43 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.2.1.tgz',
+43 verbose addRemoteTarball   '1bad0cef9dcdad90b784ed0082803ac8a5f50098' ]
+44 info retry fetch attempt 1 at 6:07:09 PM
+45 info attempt registry request try #1 at 6:07:09 PM
+46 http fetch GET https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.2.1.tgz
+47 http fetch 200 https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.2.1.tgz
+48 silly fetchAndShaCheck shasum 1bad0cef9dcdad90b784ed0082803ac8a5f50098
+49 verbose addTmpTarball C:\Users\Gilberto\AppData\Local\Temp\npm-10728-b9326ee6\registry.npmjs.org\react-addons-pure-render-mixin\-\react-addons-pure-render-mixin-15.2.1.tgz not in flight; adding
+50 verbose addTmpTarball already have metadata; skipping unpack for react-addons-pure-render-mixin@15.2.1
+51 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+52 silly cache afterAdd react-addons-pure-render-mixin@15.2.1
+53 verbose afterAdd C:\Users\Gilberto\AppData\Roaming\npm-cache\react-addons-pure-render-mixin\15.2.1\package\package.json not in flight; writing
+54 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+55 verbose afterAdd C:\Users\Gilberto\AppData\Roaming\npm-cache\react-addons-pure-render-mixin\15.2.1\package\package.json written
+56 silly install resolved [ { name: 'react-addons-pure-render-mixin',
+56 silly install resolved     version: '15.2.1',
+56 silly install resolved     main: 'index.js',
+56 silly install resolved     repository:
+56 silly install resolved      { type: 'git',
+56 silly install resolved        url: 'git+https://github.com/facebook/react.git' },
+56 silly install resolved     keywords: [ 'react', 'react-addon' ],
+56 silly install resolved     license: 'BSD-3-Clause',
+56 silly install resolved     dependencies: {},
+56 silly install resolved     peerDependencies: { react: '^15.2.1' },
+56 silly install resolved     description: 'This package provides the React PureRenderMixin add-on.',
+56 silly install resolved     bugs: { url: 'https://github.com/facebook/react/issues' },
+56 silly install resolved     homepage: 'https://github.com/facebook/react#readme',
+56 silly install resolved     _id: 'react-addons-pure-render-mixin@15.2.1',
+56 silly install resolved     _shasum: '1bad0cef9dcdad90b784ed0082803ac8a5f50098',
+56 silly install resolved     _resolved: 'https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.2.1.tgz',
+56 silly install resolved     _from: 'react-addons-pure-render-mixin@latest',
+56 silly install resolved     scripts: {},
+56 silly install resolved     _npmVersion: '2.15.5',
+56 silly install resolved     _nodeVersion: '4.4.5',
+56 silly install resolved     _npmUser: { name: 'zpao', email: 'paul@oshannessy.com' },
+56 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+56 silly install resolved     dist:
+56 silly install resolved      { shasum: '1bad0cef9dcdad90b784ed0082803ac8a5f50098',
+56 silly install resolved        tarball: 'https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.2.1.tgz' },
+56 silly install resolved     _npmOperationalInternal:
+56 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+56 silly install resolved        tmp: 'tmp/react-addons-pure-render-mixin-15.2.1.tgz_1468017053160_0.06694797286763787' },
+56 silly install resolved     directories: {} } ]
+57 info install react-addons-pure-render-mixin@15.2.1 into C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy
+58 info installOne react-addons-pure-render-mixin@15.2.1
+59 verbose installOne of react-addons-pure-render-mixin to C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy not in flight; installing
+60 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+61 verbose lock using C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks\react-addons-pure-render-e36ffc86cbe9f58b.lock for C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\react-addons-pure-render-mixin
+62 silly install write writing react-addons-pure-render-mixin 15.2.1 to C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\react-addons-pure-render-mixin
+63 verbose unbuild node_modules\react-addons-pure-render-mixin
+64 silly gentlyRm C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\react-addons-pure-render-mixin is being purged from base C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy
+65 verbose gentlyRm don't care about contents; nuking C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\react-addons-pure-render-mixin
+66 verbose tar unpack C:\Users\Gilberto\AppData\Roaming\npm-cache\react-addons-pure-render-mixin\15.2.1\package.tgz
+67 verbose tar unpacking to C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\react-addons-pure-render-mixin
+68 silly gentlyRm C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\react-addons-pure-render-mixin is being purged
+69 verbose gentlyRm don't care about contents; nuking C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\react-addons-pure-render-mixin
+70 silly gunzTarPerm modes [ '777', '666' ]
+71 silly gunzTarPerm extractEntry package.json
+72 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+73 silly gunzTarPerm extractEntry README.md
+74 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+75 silly gunzTarPerm extractEntry LICENSE
+76 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+77 silly gunzTarPerm extractEntry index.js
+78 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+79 silly gunzTarPerm extractEntry PATENTS
+80 silly gunzTarPerm modified mode [ 'PATENTS', 420, 438 ]
+81 verbose write writing to C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\react-addons-pure-render-mixin\package.json
+82 info preinstall react-addons-pure-render-mixin@15.2.1
+83 verbose readDependencies loading dependencies from C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\react-addons-pure-render-mixin\package.json
+84 silly prepareForInstallMany adding react@^15.2.1 from react-addons-pure-render-mixin peerDependencies
+85 warn peerDependencies The peer dependency react@^15.2.1 included from react-addons-pure-render-mixin will no
+86 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+87 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+88 verbose readDependencies loading dependencies from C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\react-addons-pure-render-mixin\package.json
+89 silly install resolved []
+90 verbose about to build C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\react-addons-pure-render-mixin
+91 info build C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\react-addons-pure-render-mixin
+92 info linkStuff react-addons-pure-render-mixin@15.2.1
+93 silly linkStuff react-addons-pure-render-mixin@15.2.1 has C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules as its parent node_modules
+94 verbose linkBins react-addons-pure-render-mixin@15.2.1
+95 verbose linkMans react-addons-pure-render-mixin@15.2.1
+96 verbose rebuildBundles react-addons-pure-render-mixin@15.2.1
+97 info install react-addons-pure-render-mixin@15.2.1
+98 info postinstall react-addons-pure-render-mixin@15.2.1
+99 verbose readDependencies loading dependencies from C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\package.json
+100 verbose targetResolver reading package data from C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\classnames\package.json
+101 verbose targetResolver reading package data from C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\meteor-node-stubs\package.json
+102 verbose targetResolver reading package data from C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\moment\package.json
+103 verbose targetResolver reading package data from C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\react\package.json
+104 verbose targetResolver reading package data from C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\react-addons-pure-render-mixin\package.json
+105 verbose targetResolver reading package data from C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\react-dom\package.json
+106 verbose targetResolver reading package data from C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\react-masonry-component\package.json
+107 verbose targetResolver reading package data from C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\react-mounter\package.json
+108 verbose already installed skipping react@^15.2.1 C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy
+109 silly install resolved []
+110 verbose unlock done using C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks\react-addons-pure-render-e36ffc86cbe9f58b.lock for C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\node_modules\react-addons-pure-render-mixin
+111 verbose validateInstall loading C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy\package.json for validation
+112 verbose stack Error: The package react@15.0.2 does not satisfy its siblings' peerDependencies requirements!
+112 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+112 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
+112 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+112 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+112 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+112 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+112 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+112 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+112 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+112 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+113 verbose cwd C:\Users\Gilberto\meteor\cool-polls - Form validation - Copy
+114 error Windows_NT 6.1.7601
+115 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "--save" "react-addons-pure-render-mixin"
+116 error node v4.4.0
+117 error npm  v2.14.20
+118 error code EPEERINVALID
+119 error peerinvalid The package react@15.0.2 does not satisfy its siblings' peerDependencies requirements!
+119 error peerinvalid Peer react-dom@15.0.2 wants react@^15.0.2
+119 error peerinvalid Peer react-masonry-component@4.0.4 wants react@^0.14.0 || ^15.0.0-0
+119 error peerinvalid Peer react-mounter@1.2.0 wants react@0.14.x || 15.x.x
+119 error peerinvalid Peer react-addons-pure-render-mixin@15.2.1 wants react@^15.2.1
+120 verbose exit [ 1, true ]
