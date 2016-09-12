@@ -1,0 +1,1101 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   '--save',
+1 verbose cli   'clipboard' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.0
+4 verbose install initial load of C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\package.json
+5 verbose installManyTop reading scoped package data from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\classnames\package.json
+6 verbose installManyTop reading scoped package data from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\meteor-node-stubs\package.json
+7 verbose installManyTop reading scoped package data from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\moment\package.json
+8 verbose installManyTop reading scoped package data from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\react\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\react-addons-pure-render-mixin\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\react-dom\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\react-masonry-component\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\react-mounter\package.json
+13 verbose readDependencies loading dependencies from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\package.json
+14 silly cache add args [ 'clipboard', null ]
+15 verbose cache add spec clipboard
+16 silly cache add parsed spec Result {
+16 silly cache add   raw: 'clipboard',
+16 silly cache add   scope: null,
+16 silly cache add   name: 'clipboard',
+16 silly cache add   rawSpec: '',
+16 silly cache add   spec: 'latest',
+16 silly cache add   type: 'tag' }
+17 silly addNamed clipboard@latest
+18 verbose addNamed "latest" is being treated as a dist-tag for clipboard
+19 info addNameTag [ 'clipboard', 'latest' ]
+20 silly mapToRegistry name clipboard
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/clipboard
+24 verbose addNameTag registry:https://registry.npmjs.org/clipboard not in flight; fetching
+25 verbose request uri https://registry.npmjs.org/clipboard
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 5:06:25 PM
+28 verbose request id e70881041dc85d1d
+29 verbose etag "CHPTFZ3K2YLNO57YGSFP29108"
+30 http request GET https://registry.npmjs.org/clipboard
+31 http 304 https://registry.npmjs.org/clipboard
+32 verbose headers { date: 'Mon, 01 Aug 2016 21:06:26 GMT',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   'cache-control': 'max-age=300',
+32 verbose headers   etag: '"CHPTFZ3K2YLNO57YGSFP29108"',
+32 verbose headers   age: '0',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'x-served-by': 'cache-bos8222-BOS',
+32 verbose headers   'x-cache': 'HIT',
+32 verbose headers   'x-cache-hits': '1',
+32 verbose headers   'x-timer': 'S1470085586.129166,VS0,VE38',
+32 verbose headers   vary: 'Accept-Encoding' }
+33 silly get cb [ 304,
+33 silly get   { date: 'Mon, 01 Aug 2016 21:06:26 GMT',
+33 silly get     via: '1.1 varnish',
+33 silly get     'cache-control': 'max-age=300',
+33 silly get     etag: '"CHPTFZ3K2YLNO57YGSFP29108"',
+33 silly get     age: '0',
+33 silly get     connection: 'keep-alive',
+33 silly get     'x-served-by': 'cache-bos8222-BOS',
+33 silly get     'x-cache': 'HIT',
+33 silly get     'x-cache-hits': '1',
+33 silly get     'x-timer': 'S1470085586.129166,VS0,VE38',
+33 silly get     vary: 'Accept-Encoding' } ]
+34 verbose etag https://registry.npmjs.org/clipboard from cache
+35 verbose get saving clipboard to C:\Users\Gilberto\AppData\Roaming\npm-cache\registry.npmjs.org\clipboard\.cache.json
+36 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+37 silly addNameTag next cb for clipboard with tag latest
+38 silly addNamed clipboard@1.5.12
+39 verbose addNamed "1.5.12" is a plain semver version for clipboard
+40 silly cache afterAdd clipboard@1.5.12
+41 verbose afterAdd C:\Users\Gilberto\AppData\Roaming\npm-cache\clipboard\1.5.12\package\package.json not in flight; writing
+42 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+43 verbose afterAdd C:\Users\Gilberto\AppData\Roaming\npm-cache\clipboard\1.5.12\package\package.json written
+44 silly install resolved [ { name: 'clipboard',
+44 silly install resolved     version: '1.5.12',
+44 silly install resolved     description: 'Modern copy to clipboard. No Flash. Just 2kb',
+44 silly install resolved     repository:
+44 silly install resolved      { type: 'git',
+44 silly install resolved        url: 'git+https://github.com/zenorocha/clipboard.js.git' },
+44 silly install resolved     license: 'MIT',
+44 silly install resolved     main: 'lib/clipboard.js',
+44 silly install resolved     keywords: [ 'clipboard', 'copy', 'cut' ],
+44 silly install resolved     dependencies:
+44 silly install resolved      { 'good-listener': '^1.1.6',
+44 silly install resolved        select: '^1.0.6',
+44 silly install resolved        'tiny-emitter': '^1.0.0' },
+44 silly install resolved     devDependencies:
+44 silly install resolved      { 'babel-cli': '^6.5.1',
+44 silly install resolved        'babel-core': '^6.5.2',
+44 silly install resolved        'babel-plugin-transform-es2015-modules-umd': '^6.5.0',
+44 silly install resolved        'babel-preset-es2015': '^6.5.0',
+44 silly install resolved        'babel-preset-es2015-loose': '^7.0.0',
+44 silly install resolved        babelify: '^7.2.0',
+44 silly install resolved        bannerify: 'github:vekat/bannerify#feature-option',
+44 silly install resolved        browserify: '^13.0.0',
+44 silly install resolved        chai: '^3.4.1',
+44 silly install resolved        install: '^0.4.4',
+44 silly install resolved        karma: '^0.13.10',
+44 silly install resolved        'karma-browserify': '^5.0.1',
+44 silly install resolved        'karma-chai': '^0.1.0',
+44 silly install resolved        'karma-mocha': '^0.2.0',
+44 silly install resolved        'karma-phantomjs-launcher': '^1.0.0',
+44 silly install resolved        'karma-sinon': '^1.0.4',
+44 silly install resolved        mocha: '^2.3.3',
+44 silly install resolved        'phantomjs-prebuilt': '^2.1.4',
+44 silly install resolved        sinon: '^1.17.2',
+44 silly install resolved        'uglify-js': '^2.4.24',
+44 silly install resolved        watchify: '^3.4.0' },
+44 silly install resolved     scripts:
+44 silly install resolved      { build: 'npm run build-debug && npm run build-min',
+44 silly install resolved        'build-debug': 'browserify src/clipboard.js -s Clipboard -t [babelify] -p [bannerify --file .banner ] -o dist/clipboard.js',
+44 silly install resolved        'build-min': 'uglifyjs dist/clipboard.js --comments \'/!/\' -m screw_ie8=true -c screw_ie8=true,unused=false -o dist/clipboard.min.js',
+44 silly install resolved        'build-watch': 'watchify src/clipboard.js -s Clipboard -t [babelify] -o dist/clipboard.js -v',
+44 silly install resolved        test: 'karma start --single-run',
+44 silly install resolved        prepublish: 'babel src --out-dir lib --loose all' },
+44 silly install resolved     gitHead: 'eb7418b51bb3c963893d83954c5cfa4de3f7f527',
+44 silly install resolved     bugs: { url: 'https://github.com/zenorocha/clipboard.js/issues' },
+44 silly install resolved     homepage: 'https://github.com/zenorocha/clipboard.js#readme',
+44 silly install resolved     _id: 'clipboard@1.5.12',
+44 silly install resolved     _shasum: '3728550b63613627b25614781d690f75ac7ee4bb',
+44 silly install resolved     _from: 'clipboard@latest',
+44 silly install resolved     _npmVersion: '3.9.3',
+44 silly install resolved     _nodeVersion: '5.1.1',
+44 silly install resolved     _npmUser: { name: 'zenorocha', email: 'zno.rocha@gmail.com' },
+44 silly install resolved     maintainers: [ [Object] ],
+44 silly install resolved     dist:
+44 silly install resolved      { shasum: '3728550b63613627b25614781d690f75ac7ee4bb',
+44 silly install resolved        tarball: 'https://registry.npmjs.org/clipboard/-/clipboard-1.5.12.tgz' },
+44 silly install resolved     _npmOperationalInternal:
+44 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+44 silly install resolved        tmp: 'tmp/clipboard-1.5.12.tgz_1465484273370_0.1706970576196909' },
+44 silly install resolved     directories: {},
+44 silly install resolved     _resolved: 'https://registry.npmjs.org/clipboard/-/clipboard-1.5.12.tgz',
+44 silly install resolved     readme: 'ERROR: No README data found!' } ]
+45 info install clipboard@1.5.12 into C:\Users\Gilberto\meteor\cool-polls -bars width - Copy
+46 info installOne clipboard@1.5.12
+47 verbose installOne of clipboard to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy not in flight; installing
+48 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+49 verbose lock using C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks\clipboard-7af14225c2a9c7d9.lock for C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard
+50 silly install write writing clipboard 1.5.12 to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard
+51 verbose unbuild node_modules\clipboard
+52 silly gentlyRm C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard is being purged from base C:\Users\Gilberto\meteor\cool-polls -bars width - Copy
+53 verbose gentlyRm don't care about contents; nuking C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard
+54 verbose tar unpack C:\Users\Gilberto\AppData\Roaming\npm-cache\clipboard\1.5.12\package.tgz
+55 verbose tar unpacking to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard
+56 silly gentlyRm C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard is being purged
+57 verbose gentlyRm don't care about contents; nuking C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard
+58 silly gunzTarPerm modes [ '777', '666' ]
+59 silly gunzTarPerm extractEntry package.json
+60 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+61 silly gunzTarPerm extractEntry package.js
+62 silly gunzTarPerm modified mode [ 'package.js', 420, 438 ]
+63 silly gunzTarPerm extractEntry contributing.md
+64 silly gunzTarPerm modified mode [ 'contributing.md', 420, 438 ]
+65 silly gunzTarPerm extractEntry dist/clipboard.js
+66 silly gunzTarPerm modified mode [ 'dist/clipboard.js', 420, 438 ]
+67 silly gunzTarPerm extractEntry dist/clipboard.min.js
+68 silly gunzTarPerm modified mode [ 'dist/clipboard.min.js', 420, 438 ]
+69 silly gunzTarPerm extractEntry lib/clipboard-action.js
+70 silly gunzTarPerm modified mode [ 'lib/clipboard-action.js', 420, 438 ]
+71 silly gunzTarPerm extractEntry lib/clipboard.js
+72 silly gunzTarPerm modified mode [ 'lib/clipboard.js', 420, 438 ]
+73 silly gunzTarPerm extractEntry readme.md
+74 silly gunzTarPerm modified mode [ 'readme.md', 420, 438 ]
+75 verbose write writing to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\package.json
+76 info preinstall clipboard@1.5.12
+77 verbose readDependencies loading dependencies from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\package.json
+78 silly prepareForInstallMany adding good-listener@^1.1.6 from clipboard dependencies
+79 silly prepareForInstallMany adding select@^1.0.6 from clipboard dependencies
+80 silly prepareForInstallMany adding tiny-emitter@^1.0.0 from clipboard dependencies
+81 verbose readDependencies loading dependencies from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\package.json
+82 silly cache add args [ 'good-listener@^1.1.6', null ]
+83 verbose cache add spec good-listener@^1.1.6
+84 silly cache add args [ 'select@^1.0.6', null ]
+85 verbose cache add spec select@^1.0.6
+86 silly cache add parsed spec Result {
+86 silly cache add   raw: 'good-listener@^1.1.6',
+86 silly cache add   scope: null,
+86 silly cache add   name: 'good-listener',
+86 silly cache add   rawSpec: '^1.1.6',
+86 silly cache add   spec: '>=1.1.6 <2.0.0',
+86 silly cache add   type: 'range' }
+87 silly addNamed good-listener@>=1.1.6 <2.0.0
+88 verbose addNamed ">=1.1.6 <2.0.0" is a valid semver range for good-listener
+89 silly addNameRange { name: 'good-listener',
+89 silly addNameRange   range: '>=1.1.6 <2.0.0',
+89 silly addNameRange   hasData: false }
+90 silly mapToRegistry name good-listener
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npmjs.org/
+93 silly mapToRegistry uri https://registry.npmjs.org/good-listener
+94 verbose addNameRange registry:https://registry.npmjs.org/good-listener not in flight; fetching
+95 silly cache add parsed spec Result {
+95 silly cache add   raw: 'select@^1.0.6',
+95 silly cache add   scope: null,
+95 silly cache add   name: 'select',
+95 silly cache add   rawSpec: '^1.0.6',
+95 silly cache add   spec: '>=1.0.6 <2.0.0',
+95 silly cache add   type: 'range' }
+96 silly addNamed select@>=1.0.6 <2.0.0
+97 verbose addNamed ">=1.0.6 <2.0.0" is a valid semver range for select
+98 silly addNameRange { name: 'select', range: '>=1.0.6 <2.0.0', hasData: false }
+99 silly mapToRegistry name select
+100 silly mapToRegistry using default registry
+101 silly mapToRegistry registry https://registry.npmjs.org/
+102 silly mapToRegistry uri https://registry.npmjs.org/select
+103 verbose addNameRange registry:https://registry.npmjs.org/select not in flight; fetching
+104 silly cache add args [ 'tiny-emitter@^1.0.0', null ]
+105 verbose cache add spec tiny-emitter@^1.0.0
+106 silly cache add parsed spec Result {
+106 silly cache add   raw: 'tiny-emitter@^1.0.0',
+106 silly cache add   scope: null,
+106 silly cache add   name: 'tiny-emitter',
+106 silly cache add   rawSpec: '^1.0.0',
+106 silly cache add   spec: '>=1.0.0 <2.0.0',
+106 silly cache add   type: 'range' }
+107 silly addNamed tiny-emitter@>=1.0.0 <2.0.0
+108 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for tiny-emitter
+109 silly addNameRange { name: 'tiny-emitter', range: '>=1.0.0 <2.0.0', hasData: false }
+110 silly mapToRegistry name tiny-emitter
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry uri https://registry.npmjs.org/tiny-emitter
+114 verbose addNameRange registry:https://registry.npmjs.org/tiny-emitter not in flight; fetching
+115 verbose request uri https://registry.npmjs.org/select
+116 verbose request no auth needed
+117 info attempt registry request try #1 at 5:06:26 PM
+118 verbose etag "DQPXX11QVIKOX28O5J7L0ZBRJ"
+119 http request GET https://registry.npmjs.org/select
+120 verbose request uri https://registry.npmjs.org/tiny-emitter
+121 verbose request no auth needed
+122 info attempt registry request try #1 at 5:06:26 PM
+123 verbose etag "30TB4NWPWMRJEGCTG9NNNCUY2"
+124 http request GET https://registry.npmjs.org/tiny-emitter
+125 verbose request uri https://registry.npmjs.org/good-listener
+126 verbose request no auth needed
+127 info attempt registry request try #1 at 5:06:26 PM
+128 verbose etag "7W33V1Q3XJCJR3AOJFU3JKIZG"
+129 http request GET https://registry.npmjs.org/good-listener
+130 http 304 https://registry.npmjs.org/select
+131 verbose headers { date: 'Mon, 01 Aug 2016 21:06:26 GMT',
+131 verbose headers   via: '1.1 varnish',
+131 verbose headers   'cache-control': 'max-age=300',
+131 verbose headers   etag: '"DQPXX11QVIKOX28O5J7L0ZBRJ"',
+131 verbose headers   age: '0',
+131 verbose headers   connection: 'keep-alive',
+131 verbose headers   'x-served-by': 'cache-bos8228-BOS',
+131 verbose headers   'x-cache': 'MISS',
+131 verbose headers   'x-cache-hits': '0',
+131 verbose headers   'x-timer': 'S1470085586.545107,VS0,VE109',
+131 verbose headers   vary: 'Accept-Encoding' }
+132 silly get cb [ 304,
+132 silly get   { date: 'Mon, 01 Aug 2016 21:06:26 GMT',
+132 silly get     via: '1.1 varnish',
+132 silly get     'cache-control': 'max-age=300',
+132 silly get     etag: '"DQPXX11QVIKOX28O5J7L0ZBRJ"',
+132 silly get     age: '0',
+132 silly get     connection: 'keep-alive',
+132 silly get     'x-served-by': 'cache-bos8228-BOS',
+132 silly get     'x-cache': 'MISS',
+132 silly get     'x-cache-hits': '0',
+132 silly get     'x-timer': 'S1470085586.545107,VS0,VE109',
+132 silly get     vary: 'Accept-Encoding' } ]
+133 verbose etag https://registry.npmjs.org/select from cache
+134 verbose get saving select to C:\Users\Gilberto\AppData\Roaming\npm-cache\registry.npmjs.org\select\.cache.json
+135 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+136 silly addNameRange number 2 { name: 'select', range: '>=1.0.6 <2.0.0', hasData: true }
+137 silly addNameRange versions [ 'select',
+137 silly addNameRange   [ '0.1.0',
+137 silly addNameRange     '0.1.1',
+137 silly addNameRange     '1.0.0-alpha',
+137 silly addNameRange     '1.0.0',
+137 silly addNameRange     '1.0.1',
+137 silly addNameRange     '1.0.2',
+137 silly addNameRange     '1.0.3',
+137 silly addNameRange     '1.0.4',
+137 silly addNameRange     '1.0.5',
+137 silly addNameRange     '1.0.6' ] ]
+138 silly addNamed select@1.0.6
+139 verbose addNamed "1.0.6" is a plain semver version for select
+140 http 304 https://registry.npmjs.org/tiny-emitter
+141 verbose headers { date: 'Mon, 01 Aug 2016 21:06:26 GMT',
+141 verbose headers   via: '1.1 varnish',
+141 verbose headers   'cache-control': 'max-age=300',
+141 verbose headers   etag: '"30TB4NWPWMRJEGCTG9NNNCUY2"',
+141 verbose headers   age: '0',
+141 verbose headers   connection: 'keep-alive',
+141 verbose headers   'x-served-by': 'cache-bos8222-BOS',
+141 verbose headers   'x-cache': 'HIT',
+141 verbose headers   'x-cache-hits': '1',
+141 verbose headers   'x-timer': 'S1470085586.560983,VS0,VE116',
+141 verbose headers   vary: 'Accept-Encoding' }
+142 silly get cb [ 304,
+142 silly get   { date: 'Mon, 01 Aug 2016 21:06:26 GMT',
+142 silly get     via: '1.1 varnish',
+142 silly get     'cache-control': 'max-age=300',
+142 silly get     etag: '"30TB4NWPWMRJEGCTG9NNNCUY2"',
+142 silly get     age: '0',
+142 silly get     connection: 'keep-alive',
+142 silly get     'x-served-by': 'cache-bos8222-BOS',
+142 silly get     'x-cache': 'HIT',
+142 silly get     'x-cache-hits': '1',
+142 silly get     'x-timer': 'S1470085586.560983,VS0,VE116',
+142 silly get     vary: 'Accept-Encoding' } ]
+143 verbose etag https://registry.npmjs.org/tiny-emitter from cache
+144 verbose get saving tiny-emitter to C:\Users\Gilberto\AppData\Roaming\npm-cache\registry.npmjs.org\tiny-emitter\.cache.json
+145 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+146 silly addNameRange number 2 { name: 'tiny-emitter', range: '>=1.0.0 <2.0.0', hasData: true }
+147 silly addNameRange versions [ 'tiny-emitter',
+147 silly addNameRange   [ '0.1.0',
+147 silly addNameRange     '0.1.1',
+147 silly addNameRange     '0.1.2',
+147 silly addNameRange     '0.1.3',
+147 silly addNameRange     '0.1.4',
+147 silly addNameRange     '0.1.5',
+147 silly addNameRange     '0.1.6',
+147 silly addNameRange     '0.1.7',
+147 silly addNameRange     '0.1.8',
+147 silly addNameRange     '0.1.9',
+147 silly addNameRange     '0.1.10',
+147 silly addNameRange     '0.1.11',
+147 silly addNameRange     '0.1.12',
+147 silly addNameRange     '1.0.0',
+147 silly addNameRange     '1.0.1',
+147 silly addNameRange     '1.0.2',
+147 silly addNameRange     '1.1.0' ] ]
+148 silly addNamed tiny-emitter@1.1.0
+149 verbose addNamed "1.1.0" is a plain semver version for tiny-emitter
+150 silly cache afterAdd select@1.0.6
+151 verbose afterAdd C:\Users\Gilberto\AppData\Roaming\npm-cache\select\1.0.6\package\package.json not in flight; writing
+152 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+153 verbose afterAdd C:\Users\Gilberto\AppData\Roaming\npm-cache\select\1.0.6\package\package.json written
+154 silly cache afterAdd tiny-emitter@1.1.0
+155 verbose afterAdd C:\Users\Gilberto\AppData\Roaming\npm-cache\tiny-emitter\1.1.0\package\package.json not in flight; writing
+156 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+157 verbose afterAdd C:\Users\Gilberto\AppData\Roaming\npm-cache\tiny-emitter\1.1.0\package\package.json written
+158 http 304 https://registry.npmjs.org/good-listener
+159 verbose headers { date: 'Mon, 01 Aug 2016 21:06:26 GMT',
+159 verbose headers   via: '1.1 varnish',
+159 verbose headers   'cache-control': 'max-age=300',
+159 verbose headers   etag: '"7W33V1Q3XJCJR3AOJFU3JKIZG"',
+159 verbose headers   age: '0',
+159 verbose headers   connection: 'keep-alive',
+159 verbose headers   'x-served-by': 'cache-bos8223-BOS',
+159 verbose headers   'x-cache': 'HIT',
+159 verbose headers   'x-cache-hits': '1',
+159 verbose headers   'x-timer': 'S1470085586.566585,VS0,VE444',
+159 verbose headers   vary: 'Accept-Encoding' }
+160 silly get cb [ 304,
+160 silly get   { date: 'Mon, 01 Aug 2016 21:06:26 GMT',
+160 silly get     via: '1.1 varnish',
+160 silly get     'cache-control': 'max-age=300',
+160 silly get     etag: '"7W33V1Q3XJCJR3AOJFU3JKIZG"',
+160 silly get     age: '0',
+160 silly get     connection: 'keep-alive',
+160 silly get     'x-served-by': 'cache-bos8223-BOS',
+160 silly get     'x-cache': 'HIT',
+160 silly get     'x-cache-hits': '1',
+160 silly get     'x-timer': 'S1470085586.566585,VS0,VE444',
+160 silly get     vary: 'Accept-Encoding' } ]
+161 verbose etag https://registry.npmjs.org/good-listener from cache
+162 verbose get saving good-listener to C:\Users\Gilberto\AppData\Roaming\npm-cache\registry.npmjs.org\good-listener\.cache.json
+163 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+164 silly addNameRange number 2 { name: 'good-listener', range: '>=1.1.6 <2.0.0', hasData: true }
+165 silly addNameRange versions [ 'good-listener',
+165 silly addNameRange   [ '1.0.0',
+165 silly addNameRange     '1.1.0',
+165 silly addNameRange     '1.1.1',
+165 silly addNameRange     '1.1.2',
+165 silly addNameRange     '1.1.3',
+165 silly addNameRange     '1.1.4',
+165 silly addNameRange     '1.1.5',
+165 silly addNameRange     '1.1.6',
+165 silly addNameRange     '1.1.7' ] ]
+166 silly addNamed good-listener@1.1.7
+167 verbose addNamed "1.1.7" is a plain semver version for good-listener
+168 silly cache afterAdd good-listener@1.1.7
+169 verbose afterAdd C:\Users\Gilberto\AppData\Roaming\npm-cache\good-listener\1.1.7\package\package.json not in flight; writing
+170 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+171 verbose afterAdd C:\Users\Gilberto\AppData\Roaming\npm-cache\good-listener\1.1.7\package\package.json written
+172 silly install resolved [ { name: 'select',
+172 silly install resolved     description: 'Programmatically select the text of a HTML element',
+172 silly install resolved     version: '1.0.6',
+172 silly install resolved     main: 'src/select.js',
+172 silly install resolved     repository:
+172 silly install resolved      { type: 'git',
+172 silly install resolved        url: 'git+https://github.com/zenorocha/select.git' },
+172 silly install resolved     keywords: [ 'range', 'select', 'selecting', 'selection' ],
+172 silly install resolved     devDependencies:
+172 silly install resolved      { browserify: '^11.2.0',
+172 silly install resolved        chai: '^3.3.0',
+172 silly install resolved        karma: '^0.13.10',
+172 silly install resolved        'karma-browserify': '^4.4.0',
+172 silly install resolved        'karma-chai': '^0.1.0',
+172 silly install resolved        'karma-mocha': '^0.2.0',
+172 silly install resolved        'karma-phantomjs-launcher': '^0.2.1',
+172 silly install resolved        mocha: '^2.3.3',
+172 silly install resolved        phantomjs: '^1.9.18' },
+172 silly install resolved     scripts:
+172 silly install resolved      { build: 'browserify src/select.js -s select -o dist/select.js',
+172 silly install resolved        test: 'karma start --single-run' },
+172 silly install resolved     gitHead: 'c04fa7e0b0bc19fc4de69b307ef3e873ee1acb8a',
+172 silly install resolved     bugs: { url: 'https://github.com/zenorocha/select/issues' },
+172 silly install resolved     homepage: 'https://github.com/zenorocha/select',
+172 silly install resolved     _id: 'select@1.0.6',
+172 silly install resolved     _shasum: 'daabcc99009b2fb988944c8880f773265ef90e5e',
+172 silly install resolved     _from: 'select@>=1.0.6 <2.0.0',
+172 silly install resolved     _npmVersion: '2.11.3',
+172 silly install resolved     _nodeVersion: '0.12.7',
+172 silly install resolved     _npmUser: { name: 'zenorocha', email: 'zno.rocha@gmail.com' },
+172 silly install resolved     maintainers: [ [Object] ],
+172 silly install resolved     dist:
+172 silly install resolved      { shasum: 'daabcc99009b2fb988944c8880f773265ef90e5e',
+172 silly install resolved        tarball: 'https://registry.npmjs.org/select/-/select-1.0.6.tgz' },
+172 silly install resolved     directories: {},
+172 silly install resolved     _resolved: 'https://registry.npmjs.org/select/-/select-1.0.6.tgz',
+172 silly install resolved     readme: 'ERROR: No README data found!' },
+172 silly install resolved   { name: 'tiny-emitter',
+172 silly install resolved     version: '1.1.0',
+172 silly install resolved     description: 'A tiny (less than 1k) event emitter library',
+172 silly install resolved     main: 'index.js',
+172 silly install resolved     scripts:
+172 silly install resolved      { test: 'testling | tap-format-spec',
+172 silly install resolved        bundle: 'browserify index.js > dist/tinyemitter.js -s TinyEmitter && echo \'Bundled\'',
+172 silly install resolved        minify: 'uglifyjs dist/tinyemitter.js -o dist/tinyemitter.min.js -m && echo \'Minified\'',
+172 silly install resolved        build: 'npm test && npm run bundle && npm run minify',
+172 silly install resolved        size: 'uglifyjs index.js -o minified.js -m && ls -l && rm minified.js' },
+172 silly install resolved     repository:
+172 silly install resolved      { type: 'git',
+172 silly install resolved        url: 'git+https://github.com/scottcorgan/tiny-emitter.git' },
+172 silly install resolved     keywords: [ 'event', 'emitter', 'pubsub', 'tiny', 'events', 'bind' ],
+172 silly install resolved     author: { name: 'Scott Corgan' },
+172 silly install resolved     license: 'MIT',
+172 silly install resolved     bugs: { url: 'https://github.com/scottcorgan/tiny-emitter/issues' },
+172 silly install resolved     devDependencies:
+172 silly install resolved      { '@tap-format/spec': '0.2.0',
+172 silly install resolved        browserify: '^11.2.0',
+172 silly install resolved        tape: '^4.2.1',
+172 silly install resolved        testling: '^1.7.1',
+172 silly install resolved        'uglify-js': '^2.5.0' },
+172 silly install resolved     testling: { files: [Object], browsers: [Object] },
+172 silly install resolved     gitHead: '6cd3cef4872e45fac5195b1912deeb2b30da1ce1',
+172 silly install resolved     homepage: 'https://github.com/scottcorgan/tiny-emitter#readme',
+172 silly install resolved     _id: 'tiny-emitter@1.1.0',
+172 silly install resolved     _shasum: 'ab405a21ffed814a76c19739648093d70654fecb',
+172 silly install resolved     _from: 'tiny-emitter@>=1.0.0 <2.0.0',
+172 silly install resolved     _npmVersion: '3.8.6',
+172 silly install resolved     _nodeVersion: '6.1.0',
+172 silly install resolved     _npmUser: { name: 'scottcorgan', email: 'scottcorgan@gmail.com' },
+172 silly install resolved     dist:
+172 silly install resolved      { shasum: 'ab405a21ffed814a76c19739648093d70654fecb',
+172 silly install resolved        tarball: 'https://registry.npmjs.org/tiny-emitter/-/tiny-emitter-1.1.0.tgz' },
+172 silly install resolved     maintainers: [ [Object] ],
+172 silly install resolved     _npmOperationalInternal:
+172 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+172 silly install resolved        tmp: 'tmp/tiny-emitter-1.1.0.tgz_1467208205044_0.9086456855293363' },
+172 silly install resolved     directories: {},
+172 silly install resolved     _resolved: 'https://registry.npmjs.org/tiny-emitter/-/tiny-emitter-1.1.0.tgz',
+172 silly install resolved     readme: 'ERROR: No README data found!' },
+172 silly install resolved   { name: 'good-listener',
+172 silly install resolved     description: 'A more versatile way of adding & removing event listeners',
+172 silly install resolved     version: '1.1.7',
+172 silly install resolved     repository:
+172 silly install resolved      { type: 'git',
+172 silly install resolved        url: 'git+https://github.com/zenorocha/good-listener.git' },
+172 silly install resolved     license: 'MIT',
+172 silly install resolved     main: 'src/listen.js',
+172 silly install resolved     keywords: [ 'event', 'listener' ],
+172 silly install resolved     dependencies: { delegate: '^3.0.0' },
+172 silly install resolved     devDependencies:
+172 silly install resolved      { browserify: '^13.0.0',
+172 silly install resolved        chai: '^3.5.0',
+172 silly install resolved        karma: '^0.13.10',
+172 silly install resolved        'karma-browserify': '^5.0.1',
+172 silly install resolved        'karma-chai': '^0.1.0',
+172 silly install resolved        'karma-mocha': '^0.2.0',
+172 silly install resolved        'karma-phantomjs-launcher': '^1.0.0',
+172 silly install resolved        'karma-sinon': '^1.0.4',
+172 silly install resolved        mocha: '^2.4.5',
+172 silly install resolved        'phantomjs-polyfill': '0.0.1',
+172 silly install resolved        'phantomjs-prebuilt': '^2.1.3',
+172 silly install resolved        simulant: '^0.1.5',
+172 silly install resolved        sinon: '^1.17.3',
+172 silly install resolved        watchify: '^3.7.0' },
+172 silly install resolved     scripts:
+172 silly install resolved      { build: 'browserify src/listen.js -s listen -o dist/good-listener.js',
+172 silly install resolved        test: 'karma start --single-run' },
+172 silly install resolved     gitHead: '08eb792497199acc4c8aed88f38d356a1f2fd012',
+172 silly install resolved     bugs: { url: 'https://github.com/zenorocha/good-listener/issues' },
+172 silly install resolved     homepage: 'https://github.com/zenorocha/good-listener',
+172 silly install resolved     _id: 'good-listener@1.1.7',
+172 silly install resolved     _shasum: 'da0f2cbdfdbd5215ba3fe74730b627f88d928aa4',
+172 silly install resolved     _from: 'good-listener@>=1.1.6 <2.0.0',
+172 silly install resolved     _npmVersion: '3.3.12',
+172 silly install resolved     _nodeVersion: '5.1.1',
+172 silly install resolved     _npmUser: { name: 'zenorocha', email: 'zno.rocha@gmail.com' },
+172 silly install resolved     maintainers: [ [Object] ],
+172 silly install resolved     dist:
+172 silly install resolved      { shasum: 'da0f2cbdfdbd5215ba3fe74730b627f88d928aa4',
+172 silly install resolved        tarball: 'https://registry.npmjs.org/good-listener/-/good-listener-1.1.7.tgz' },
+172 silly install resolved     _npmOperationalInternal:
+172 silly install resolved      { host: 'packages-9-west.internal.npmjs.com',
+172 silly install resolved        tmp: 'tmp/good-listener-1.1.7.tgz_1455227710234_0.6721981486771256' },
+172 silly install resolved     directories: {},
+172 silly install resolved     _resolved: 'https://registry.npmjs.org/good-listener/-/good-listener-1.1.7.tgz',
+172 silly install resolved     readme: 'ERROR: No README data found!' } ]
+173 info install select@1.0.6 into C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard
+174 info install tiny-emitter@1.1.0 into C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard
+175 info install good-listener@1.1.7 into C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard
+176 info installOne select@1.0.6
+177 verbose installOne of select to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard not in flight; installing
+178 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+179 info installOne tiny-emitter@1.1.0
+180 verbose installOne of tiny-emitter to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard not in flight; installing
+181 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+182 info installOne good-listener@1.1.7
+183 verbose installOne of good-listener to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard not in flight; installing
+184 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+185 verbose lock using C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks\select-35589c2ffd9672da.lock for C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\select
+186 verbose lock using C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks\good-listener-066bac9139f84c77.lock for C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener
+187 verbose lock using C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks\tiny-emitter-eba298420ea84ed8.lock for C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\tiny-emitter
+188 silly install write writing select 1.0.6 to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\select
+189 silly install write writing good-listener 1.1.7 to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener
+190 silly install write writing tiny-emitter 1.1.0 to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\tiny-emitter
+191 verbose unbuild node_modules\clipboard\node_modules\select
+192 verbose unbuild node_modules\clipboard\node_modules\good-listener
+193 verbose unbuild node_modules\clipboard\node_modules\tiny-emitter
+194 silly gentlyRm C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\select is being purged from base C:\Users\Gilberto\meteor\cool-polls -bars width - Copy
+195 verbose gentlyRm don't care about contents; nuking C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\select
+196 silly gentlyRm C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener is being purged from base C:\Users\Gilberto\meteor\cool-polls -bars width - Copy
+197 verbose gentlyRm don't care about contents; nuking C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener
+198 verbose tar unpack C:\Users\Gilberto\AppData\Roaming\npm-cache\select\1.0.6\package.tgz
+199 verbose tar unpacking to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\select
+200 silly gentlyRm C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\select is being purged
+201 verbose gentlyRm don't care about contents; nuking C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\select
+202 verbose tar unpack C:\Users\Gilberto\AppData\Roaming\npm-cache\good-listener\1.1.7\package.tgz
+203 verbose tar unpacking to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener
+204 silly gentlyRm C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener is being purged
+205 verbose gentlyRm don't care about contents; nuking C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener
+206 silly gentlyRm C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\tiny-emitter is being purged from base C:\Users\Gilberto\meteor\cool-polls -bars width - Copy
+207 verbose gentlyRm don't care about contents; nuking C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\tiny-emitter
+208 silly gunzTarPerm modes [ '777', '666' ]
+209 silly gunzTarPerm modes [ '777', '666' ]
+210 verbose tar unpack C:\Users\Gilberto\AppData\Roaming\npm-cache\tiny-emitter\1.1.0\package.tgz
+211 verbose tar unpacking to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\tiny-emitter
+212 silly gentlyRm C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\tiny-emitter is being purged
+213 verbose gentlyRm don't care about contents; nuking C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\tiny-emitter
+214 silly gunzTarPerm modes [ '777', '666' ]
+215 silly gunzTarPerm extractEntry package.json
+216 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+217 silly gunzTarPerm extractEntry package.json
+218 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+219 silly gunzTarPerm extractEntry package.json
+220 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+221 silly gunzTarPerm extractEntry .npmignore
+222 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+223 silly gunzTarPerm extractEntry karma.conf.js
+224 silly gunzTarPerm modified mode [ 'karma.conf.js', 420, 438 ]
+225 silly gunzTarPerm extractEntry .npmignore
+226 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+227 silly gunzTarPerm extractEntry README.md
+228 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+229 silly gunzTarPerm extractEntry .npmignore
+230 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+231 silly gunzTarPerm extractEntry karma.conf.js
+232 silly gunzTarPerm modified mode [ 'karma.conf.js', 420, 438 ]
+233 silly gunzTarPerm extractEntry dist/good-listener.js
+234 silly gunzTarPerm modified mode [ 'dist/good-listener.js', 420, 438 ]
+235 silly gunzTarPerm extractEntry bower.json
+236 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+237 silly gunzTarPerm extractEntry index.js
+238 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+239 silly gunzTarPerm extractEntry bower.json
+240 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+241 silly gunzTarPerm extractEntry saucelabs.js
+242 silly gunzTarPerm modified mode [ 'saucelabs.js', 420, 438 ]
+243 silly gunzTarPerm extractEntry bower.json
+244 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+245 silly gunzTarPerm extractEntry dist/tinyemitter.js
+246 silly gunzTarPerm modified mode [ 'dist/tinyemitter.js', 420, 438 ]
+247 silly gunzTarPerm extractEntry dist/tinyemitter.min.js
+248 silly gunzTarPerm modified mode [ 'dist/tinyemitter.min.js', 420, 438 ]
+249 silly gunzTarPerm extractEntry demo/contenteditable.html
+250 silly gunzTarPerm modified mode [ 'demo/contenteditable.html', 420, 438 ]
+251 silly gunzTarPerm extractEntry demo/disabled.html
+252 silly gunzTarPerm modified mode [ 'demo/disabled.html', 420, 438 ]
+253 silly gunzTarPerm extractEntry demo/destroy.html
+254 silly gunzTarPerm modified mode [ 'demo/destroy.html', 420, 438 ]
+255 silly gunzTarPerm extractEntry demo/multiple.html
+256 silly gunzTarPerm modified mode [ 'demo/multiple.html', 420, 438 ]
+257 silly gunzTarPerm extractEntry demo/editable.html
+258 silly gunzTarPerm modified mode [ 'demo/editable.html', 420, 438 ]
+259 silly gunzTarPerm extractEntry demo/multiple.html
+260 silly gunzTarPerm modified mode [ 'demo/multiple.html', 420, 438 ]
+261 silly gunzTarPerm extractEntry index.d.ts
+262 silly gunzTarPerm modified mode [ 'index.d.ts', 420, 438 ]
+263 silly gunzTarPerm extractEntry test/index.js
+264 silly gunzTarPerm modified mode [ 'test/index.js', 420, 438 ]
+265 silly gunzTarPerm extractEntry demo/node.html
+266 silly gunzTarPerm modified mode [ 'demo/node.html', 420, 438 ]
+267 silly gunzTarPerm extractEntry demo/nodelist.html
+268 silly gunzTarPerm modified mode [ 'demo/nodelist.html', 420, 438 ]
+269 silly gunzTarPerm extractEntry demo/selector.html
+270 silly gunzTarPerm modified mode [ 'demo/selector.html', 420, 438 ]
+271 silly gunzTarPerm extractEntry .editorconfig
+272 silly gunzTarPerm modified mode [ '.editorconfig', 420, 438 ]
+273 silly gunzTarPerm extractEntry src/is.js
+274 silly gunzTarPerm modified mode [ 'src/is.js', 420, 438 ]
+275 silly gunzTarPerm extractEntry src/listen.js
+276 silly gunzTarPerm modified mode [ 'src/listen.js', 420, 438 ]
+277 silly gunzTarPerm extractEntry .travis.yml
+278 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+279 silly gunzTarPerm extractEntry readme.md
+280 silly gunzTarPerm modified mode [ 'readme.md', 420, 438 ]
+281 silly gunzTarPerm extractEntry test/is.js
+282 silly gunzTarPerm modified mode [ 'test/is.js', 420, 438 ]
+283 silly gunzTarPerm extractEntry test/listen.js
+284 silly gunzTarPerm modified mode [ 'test/listen.js', 420, 438 ]
+285 silly gunzTarPerm extractEntry demo/nested.html
+286 silly gunzTarPerm modified mode [ 'demo/nested.html', 420, 438 ]
+287 silly gunzTarPerm extractEntry demo/non-editable.html
+288 silly gunzTarPerm modified mode [ 'demo/non-editable.html', 420, 438 ]
+289 silly gunzTarPerm extractEntry dist/select.js
+290 silly gunzTarPerm modified mode [ 'dist/select.js', 420, 438 ]
+291 silly gunzTarPerm extractEntry src/select.js
+292 silly gunzTarPerm modified mode [ 'src/select.js', 420, 438 ]
+293 silly gunzTarPerm extractEntry .editorconfig
+294 silly gunzTarPerm modified mode [ '.editorconfig', 420, 438 ]
+295 silly gunzTarPerm extractEntry readme.md
+296 silly gunzTarPerm modified mode [ 'readme.md', 420, 438 ]
+297 silly gunzTarPerm extractEntry .travis.yml
+298 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+299 silly gunzTarPerm extractEntry test/select.js
+300 silly gunzTarPerm modified mode [ 'test/select.js', 420, 438 ]
+301 verbose write writing to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\tiny-emitter\package.json
+302 info preinstall tiny-emitter@1.1.0
+303 verbose readDependencies loading dependencies from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\tiny-emitter\package.json
+304 verbose readDependencies loading dependencies from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\tiny-emitter\package.json
+305 silly install resolved []
+306 verbose about to build C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\tiny-emitter
+307 info build C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\tiny-emitter
+308 info linkStuff tiny-emitter@1.1.0
+309 silly linkStuff tiny-emitter@1.1.0 has C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules as its parent node_modules
+310 verbose linkBins tiny-emitter@1.1.0
+311 verbose linkMans tiny-emitter@1.1.0
+312 verbose rebuildBundles tiny-emitter@1.1.0
+313 info install tiny-emitter@1.1.0
+314 info postinstall tiny-emitter@1.1.0
+315 verbose unlock done using C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks\tiny-emitter-eba298420ea84ed8.lock for C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\tiny-emitter
+316 verbose write writing to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\select\package.json
+317 verbose write writing to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\package.json
+318 info preinstall select@1.0.6
+319 info preinstall good-listener@1.1.7
+320 verbose readDependencies loading dependencies from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\select\package.json
+321 verbose readDependencies loading dependencies from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\package.json
+322 verbose readDependencies loading dependencies from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\select\package.json
+323 silly prepareForInstallMany adding delegate@^3.0.0 from good-listener dependencies
+324 verbose readDependencies loading dependencies from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\package.json
+325 silly install resolved []
+326 verbose about to build C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\select
+327 info build C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\select
+328 info linkStuff select@1.0.6
+329 silly linkStuff select@1.0.6 has C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules as its parent node_modules
+330 silly cache add args [ 'delegate@^3.0.0', null ]
+331 verbose cache add spec delegate@^3.0.0
+332 silly cache add parsed spec Result {
+332 silly cache add   raw: 'delegate@^3.0.0',
+332 silly cache add   scope: null,
+332 silly cache add   name: 'delegate',
+332 silly cache add   rawSpec: '^3.0.0',
+332 silly cache add   spec: '>=3.0.0 <4.0.0',
+332 silly cache add   type: 'range' }
+333 silly addNamed delegate@>=3.0.0 <4.0.0
+334 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for delegate
+335 silly addNameRange { name: 'delegate', range: '>=3.0.0 <4.0.0', hasData: false }
+336 silly mapToRegistry name delegate
+337 silly mapToRegistry using default registry
+338 silly mapToRegistry registry https://registry.npmjs.org/
+339 silly mapToRegistry uri https://registry.npmjs.org/delegate
+340 verbose addNameRange registry:https://registry.npmjs.org/delegate not in flight; fetching
+341 verbose linkBins select@1.0.6
+342 verbose linkMans select@1.0.6
+343 verbose rebuildBundles select@1.0.6
+344 info install select@1.0.6
+345 info postinstall select@1.0.6
+346 verbose unlock done using C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks\select-35589c2ffd9672da.lock for C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\select
+347 verbose request uri https://registry.npmjs.org/delegate
+348 verbose request no auth needed
+349 info attempt registry request try #1 at 5:06:27 PM
+350 verbose etag "6NOTAFVQ2ABST236TCGSI66R8"
+351 http request GET https://registry.npmjs.org/delegate
+352 http 304 https://registry.npmjs.org/delegate
+353 verbose headers { date: 'Mon, 01 Aug 2016 21:06:27 GMT',
+353 verbose headers   via: '1.1 varnish',
+353 verbose headers   'cache-control': 'max-age=300',
+353 verbose headers   etag: '"6NOTAFVQ2ABST236TCGSI66R8"',
+353 verbose headers   age: '139',
+353 verbose headers   connection: 'keep-alive',
+353 verbose headers   'x-served-by': 'cache-bos8235-BOS',
+353 verbose headers   'x-cache': 'HIT',
+353 verbose headers   'x-cache-hits': '1',
+353 verbose headers   'x-timer': 'S1470085587.533279,VS0,VE0',
+353 verbose headers   vary: 'Accept-Encoding' }
+354 silly get cb [ 304,
+354 silly get   { date: 'Mon, 01 Aug 2016 21:06:27 GMT',
+354 silly get     via: '1.1 varnish',
+354 silly get     'cache-control': 'max-age=300',
+354 silly get     etag: '"6NOTAFVQ2ABST236TCGSI66R8"',
+354 silly get     age: '139',
+354 silly get     connection: 'keep-alive',
+354 silly get     'x-served-by': 'cache-bos8235-BOS',
+354 silly get     'x-cache': 'HIT',
+354 silly get     'x-cache-hits': '1',
+354 silly get     'x-timer': 'S1470085587.533279,VS0,VE0',
+354 silly get     vary: 'Accept-Encoding' } ]
+355 verbose etag https://registry.npmjs.org/delegate from cache
+356 verbose get saving delegate to C:\Users\Gilberto\AppData\Roaming\npm-cache\registry.npmjs.org\delegate\.cache.json
+357 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+358 silly addNameRange number 2 { name: 'delegate', range: '>=3.0.0 <4.0.0', hasData: true }
+359 silly addNameRange versions [ 'delegate',
+359 silly addNameRange   [ '0.0.1',
+359 silly addNameRange     '1.0.0',
+359 silly addNameRange     '2.0.0',
+359 silly addNameRange     '2.0.1',
+359 silly addNameRange     '2.0.2',
+359 silly addNameRange     '2.0.3',
+359 silly addNameRange     '3.0.0',
+359 silly addNameRange     '3.0.1' ] ]
+360 silly addNamed delegate@3.0.1
+361 verbose addNamed "3.0.1" is a plain semver version for delegate
+362 silly cache afterAdd delegate@3.0.1
+363 verbose afterAdd C:\Users\Gilberto\AppData\Roaming\npm-cache\delegate\3.0.1\package\package.json not in flight; writing
+364 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+365 verbose afterAdd C:\Users\Gilberto\AppData\Roaming\npm-cache\delegate\3.0.1\package\package.json written
+366 silly install resolved [ { name: 'delegate',
+366 silly install resolved     description: 'Lightweight event delegation',
+366 silly install resolved     version: '3.0.1',
+366 silly install resolved     repository:
+366 silly install resolved      { type: 'git',
+366 silly install resolved        url: 'git+https://github.com/zenorocha/delegate.git' },
+366 silly install resolved     main: 'src/delegate.js',
+366 silly install resolved     keywords: [ 'event', 'delegate', 'delegation' ],
+366 silly install resolved     dependencies: { closest: '0.0.1' },
+366 silly install resolved     devDependencies:
+366 silly install resolved      { browserify: '^11.2.0',
+366 silly install resolved        karma: '^0.13.10',
+366 silly install resolved        'karma-browserify': '^4.4.0',
+366 silly install resolved        'karma-chai': '^0.1.0',
+366 silly install resolved        'karma-mocha': '^0.2.0',
+366 silly install resolved        'karma-phantomjs-launcher': '^0.2.1',
+366 silly install resolved        'karma-sinon': '^1.0.4',
+366 silly install resolved        'phantomjs-polyfill': '0.0.1',
+366 silly install resolved        simulant: '^0.1.5' },
+366 silly install resolved     scripts:
+366 silly install resolved      { build: 'browserify src/delegate.js -s delegate -o dist/delegate.js',
+366 silly install resolved        test: 'karma start --single-run' },
+366 silly install resolved     gitHead: '03474cc8f3b8650771f163a514bb6ee861080e19',
+366 silly install resolved     bugs: { url: 'https://github.com/zenorocha/delegate/issues' },
+366 silly install resolved     homepage: 'https://github.com/zenorocha/delegate',
+366 silly install resolved     _id: 'delegate@3.0.1',
+366 silly install resolved     _shasum: '1e4c07328c0411d93fd15769fca5e8d1fd998a7d',
+366 silly install resolved     _from: 'delegate@>=3.0.0 <4.0.0',
+366 silly install resolved     _npmVersion: '3.3.12',
+366 silly install resolved     _nodeVersion: '5.1.1',
+366 silly install resolved     _npmUser: { name: 'zenorocha', email: 'zno.rocha@gmail.com' },
+366 silly install resolved     maintainers: [ [Object] ],
+366 silly install resolved     dist:
+366 silly install resolved      { shasum: '1e4c07328c0411d93fd15769fca5e8d1fd998a7d',
+366 silly install resolved        tarball: 'https://registry.npmjs.org/delegate/-/delegate-3.0.1.tgz' },
+366 silly install resolved     directories: {},
+366 silly install resolved     _resolved: 'https://registry.npmjs.org/delegate/-/delegate-3.0.1.tgz',
+366 silly install resolved     readme: 'ERROR: No README data found!' } ]
+367 info install delegate@3.0.1 into C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener
+368 info installOne delegate@3.0.1
+369 verbose installOne of delegate to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener not in flight; installing
+370 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+371 verbose lock using C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks\delegate-3106cd0d64eb78e3.lock for C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate
+372 silly install write writing delegate 3.0.1 to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate
+373 verbose unbuild node_modules\clipboard\node_modules\good-listener\node_modules\delegate
+374 silly gentlyRm C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate is being purged from base C:\Users\Gilberto\meteor\cool-polls -bars width - Copy
+375 verbose gentlyRm don't care about contents; nuking C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate
+376 verbose tar unpack C:\Users\Gilberto\AppData\Roaming\npm-cache\delegate\3.0.1\package.tgz
+377 verbose tar unpacking to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate
+378 silly gentlyRm C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate is being purged
+379 verbose gentlyRm don't care about contents; nuking C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate
+380 silly gunzTarPerm modes [ '777', '666' ]
+381 silly gunzTarPerm extractEntry package.json
+382 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+383 silly gunzTarPerm extractEntry .npmignore
+384 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+385 silly gunzTarPerm extractEntry karma.conf.js
+386 silly gunzTarPerm modified mode [ 'karma.conf.js', 420, 438 ]
+387 silly gunzTarPerm extractEntry bower.json
+388 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+389 silly gunzTarPerm extractEntry demo/delegate.html
+390 silly gunzTarPerm modified mode [ 'demo/delegate.html', 420, 438 ]
+391 silly gunzTarPerm extractEntry demo/multiple.html
+392 silly gunzTarPerm modified mode [ 'demo/multiple.html', 420, 438 ]
+393 silly gunzTarPerm extractEntry demo/undelegate.html
+394 silly gunzTarPerm modified mode [ 'demo/undelegate.html', 420, 438 ]
+395 silly gunzTarPerm extractEntry dist/delegate.js
+396 silly gunzTarPerm modified mode [ 'dist/delegate.js', 420, 438 ]
+397 silly gunzTarPerm extractEntry src/delegate.js
+398 silly gunzTarPerm modified mode [ 'src/delegate.js', 420, 438 ]
+399 silly gunzTarPerm extractEntry .editorconfig
+400 silly gunzTarPerm modified mode [ '.editorconfig', 420, 438 ]
+401 silly gunzTarPerm extractEntry readme.md
+402 silly gunzTarPerm modified mode [ 'readme.md', 420, 438 ]
+403 silly gunzTarPerm extractEntry test/delegate.js
+404 silly gunzTarPerm modified mode [ 'test/delegate.js', 420, 438 ]
+405 verbose write writing to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\package.json
+406 info preinstall delegate@3.0.1
+407 verbose readDependencies loading dependencies from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\package.json
+408 silly prepareForInstallMany adding closest@0.0.1 from delegate dependencies
+409 verbose readDependencies loading dependencies from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\package.json
+410 silly cache add args [ 'closest@0.0.1', null ]
+411 verbose cache add spec closest@0.0.1
+412 silly cache add parsed spec Result {
+412 silly cache add   raw: 'closest@0.0.1',
+412 silly cache add   scope: null,
+412 silly cache add   name: 'closest',
+412 silly cache add   rawSpec: '0.0.1',
+412 silly cache add   spec: '0.0.1',
+412 silly cache add   type: 'version' }
+413 silly addNamed closest@0.0.1
+414 verbose addNamed "0.0.1" is a plain semver version for closest
+415 silly mapToRegistry name closest
+416 silly mapToRegistry using default registry
+417 silly mapToRegistry registry https://registry.npmjs.org/
+418 silly mapToRegistry uri https://registry.npmjs.org/closest
+419 verbose addNameVersion registry:https://registry.npmjs.org/closest not in flight; fetching
+420 verbose request uri https://registry.npmjs.org/closest
+421 verbose request no auth needed
+422 info attempt registry request try #1 at 5:06:27 PM
+423 verbose etag "6G4ZWN4GOXD5XY63SZ8DHXR1X"
+424 http request GET https://registry.npmjs.org/closest
+425 http 304 https://registry.npmjs.org/closest
+426 verbose headers { date: 'Mon, 01 Aug 2016 21:06:27 GMT',
+426 verbose headers   via: '1.1 varnish',
+426 verbose headers   'cache-control': 'max-age=300',
+426 verbose headers   etag: '"6G4ZWN4GOXD5XY63SZ8DHXR1X"',
+426 verbose headers   age: '124',
+426 verbose headers   connection: 'keep-alive',
+426 verbose headers   'x-served-by': 'cache-bos8227-BOS',
+426 verbose headers   'x-cache': 'HIT',
+426 verbose headers   'x-cache-hits': '1',
+426 verbose headers   'x-timer': 'S1470085587.699767,VS0,VE0',
+426 verbose headers   vary: 'Accept-Encoding' }
+427 silly get cb [ 304,
+427 silly get   { date: 'Mon, 01 Aug 2016 21:06:27 GMT',
+427 silly get     via: '1.1 varnish',
+427 silly get     'cache-control': 'max-age=300',
+427 silly get     etag: '"6G4ZWN4GOXD5XY63SZ8DHXR1X"',
+427 silly get     age: '124',
+427 silly get     connection: 'keep-alive',
+427 silly get     'x-served-by': 'cache-bos8227-BOS',
+427 silly get     'x-cache': 'HIT',
+427 silly get     'x-cache-hits': '1',
+427 silly get     'x-timer': 'S1470085587.699767,VS0,VE0',
+427 silly get     vary: 'Accept-Encoding' } ]
+428 verbose etag https://registry.npmjs.org/closest from cache
+429 verbose get saving closest to C:\Users\Gilberto\AppData\Roaming\npm-cache\registry.npmjs.org\closest\.cache.json
+430 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+431 silly cache afterAdd closest@0.0.1
+432 verbose afterAdd C:\Users\Gilberto\AppData\Roaming\npm-cache\closest\0.0.1\package\package.json not in flight; writing
+433 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+434 verbose afterAdd C:\Users\Gilberto\AppData\Roaming\npm-cache\closest\0.0.1\package\package.json written
+435 silly install resolved [ { name: 'closest',
+435 silly install resolved     version: '0.0.1',
+435 silly install resolved     description: 'Find the closest parent that matches a selector.',
+435 silly install resolved     keywords: [ 'browserify', 'CSS', 'selector', 'closest', 'parents', 'jquery' ],
+435 silly install resolved     dependencies: { 'matches-selector': '0.0.1' },
+435 silly install resolved     repository:
+435 silly install resolved      { type: 'git',
+435 silly install resolved        url: 'git+https://github.com/ForbesLindesay/closest.git' },
+435 silly install resolved     author: { name: 'Jonathan Ong' },
+435 silly install resolved     license: 'MIT',
+435 silly install resolved     readme: '# Closest\r\n\r\nSimilar to jQuery\'s `$.fn.closest` and `$.fn.parents`.\r\nFinds the closest parent that matches a selector.\r\n\r\n## Installation\r\n\r\n    $ npm install closest\r\n\r\n## API\r\n\r\n### `closest(element, selector, checkSelf)`\r\n\r\n* element - will check this elements parents\r\n* selector - CSS selector to match parents\r\n* checkSelf - check `element`.\r\n  If falsey, will begin with `element.parentNode` and is synonymous to `$.fn.parents`.\r\n  Otherwise, it\'s `$.fn.closest`.\r\n\r\nExample:\r\n\r\n```javascript\r\nvar closest = require(\'cosest\');\r\n\r\nclosest(document.body, \'html\') === document.documentElement\r\nclosest(document.body, \'body\', true) === document.body\r\nclosest(document.documentElement, \'html\') == null\r\n```\r\n\r\n## License\r\n\r\n  MIT\r\n',
+435 silly install resolved     readmeFilename: 'README.md',
+435 silly install resolved     _id: 'closest@0.0.1',
+435 silly install resolved     dist:
+435 silly install resolved      { shasum: '26da6f80b3e0e17e71f80f12782819e9f653495c',
+435 silly install resolved        tarball: 'https://registry.npmjs.org/closest/-/closest-0.0.1.tgz' },
+435 silly install resolved     _from: 'closest@0.0.1',
+435 silly install resolved     _npmVersion: '1.2.10',
+435 silly install resolved     _npmUser: { name: 'forbeslindesay', email: 'forbes@lindesay.co.uk' },
+435 silly install resolved     maintainers: [ [Object] ],
+435 silly install resolved     directories: {},
+435 silly install resolved     _shasum: '26da6f80b3e0e17e71f80f12782819e9f653495c',
+435 silly install resolved     _resolved: 'https://registry.npmjs.org/closest/-/closest-0.0.1.tgz',
+435 silly install resolved     bugs: { url: 'https://github.com/ForbesLindesay/closest/issues' },
+435 silly install resolved     homepage: 'https://github.com/ForbesLindesay/closest#readme' } ]
+436 info install closest@0.0.1 into C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate
+437 info installOne closest@0.0.1
+438 verbose installOne of closest to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate not in flight; installing
+439 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+440 verbose lock using C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks\closest-eaccf8ec175998ae.lock for C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest
+441 silly install write writing closest 0.0.1 to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest
+442 verbose unbuild node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest
+443 silly gentlyRm C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest is being purged from base C:\Users\Gilberto\meteor\cool-polls -bars width - Copy
+444 verbose gentlyRm don't care about contents; nuking C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest
+445 verbose tar unpack C:\Users\Gilberto\AppData\Roaming\npm-cache\closest\0.0.1\package.tgz
+446 verbose tar unpacking to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest
+447 silly gentlyRm C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest is being purged
+448 verbose gentlyRm don't care about contents; nuking C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest
+449 silly gunzTarPerm modes [ '777', '666' ]
+450 silly gunzTarPerm extractEntry package.json
+451 silly gunzTarPerm extractEntry .npmignore
+452 silly gunzTarPerm extractEntry README.md
+453 silly gunzTarPerm extractEntry index.js
+454 silly gunzTarPerm extractEntry component.json
+455 verbose write writing to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest\package.json
+456 info preinstall closest@0.0.1
+457 verbose readDependencies loading dependencies from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest\package.json
+458 silly prepareForInstallMany adding matches-selector@0.0.1 from closest dependencies
+459 verbose readDependencies loading dependencies from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest\package.json
+460 silly cache add args [ 'matches-selector@0.0.1', null ]
+461 verbose cache add spec matches-selector@0.0.1
+462 silly cache add parsed spec Result {
+462 silly cache add   raw: 'matches-selector@0.0.1',
+462 silly cache add   scope: null,
+462 silly cache add   name: 'matches-selector',
+462 silly cache add   rawSpec: '0.0.1',
+462 silly cache add   spec: '0.0.1',
+462 silly cache add   type: 'version' }
+463 silly addNamed matches-selector@0.0.1
+464 verbose addNamed "0.0.1" is a plain semver version for matches-selector
+465 silly mapToRegistry name matches-selector
+466 silly mapToRegistry using default registry
+467 silly mapToRegistry registry https://registry.npmjs.org/
+468 silly mapToRegistry uri https://registry.npmjs.org/matches-selector
+469 verbose addNameVersion registry:https://registry.npmjs.org/matches-selector not in flight; fetching
+470 verbose request uri https://registry.npmjs.org/matches-selector
+471 verbose request no auth needed
+472 info attempt registry request try #1 at 5:06:27 PM
+473 verbose etag "9JX83NFQ874FUMMYI9EWD4R4K"
+474 http request GET https://registry.npmjs.org/matches-selector
+475 http 304 https://registry.npmjs.org/matches-selector
+476 verbose headers { date: 'Mon, 01 Aug 2016 21:06:27 GMT',
+476 verbose headers   via: '1.1 varnish',
+476 verbose headers   'cache-control': 'max-age=300',
+476 verbose headers   etag: '"9JX83NFQ874FUMMYI9EWD4R4K"',
+476 verbose headers   age: '0',
+476 verbose headers   connection: 'keep-alive',
+476 verbose headers   'x-served-by': 'cache-bos8235-BOS',
+476 verbose headers   'x-cache': 'MISS',
+476 verbose headers   'x-cache-hits': '0',
+476 verbose headers   'x-timer': 'S1470085587.807229,VS0,VE119',
+476 verbose headers   vary: 'Accept-Encoding' }
+477 silly get cb [ 304,
+477 silly get   { date: 'Mon, 01 Aug 2016 21:06:27 GMT',
+477 silly get     via: '1.1 varnish',
+477 silly get     'cache-control': 'max-age=300',
+477 silly get     etag: '"9JX83NFQ874FUMMYI9EWD4R4K"',
+477 silly get     age: '0',
+477 silly get     connection: 'keep-alive',
+477 silly get     'x-served-by': 'cache-bos8235-BOS',
+477 silly get     'x-cache': 'MISS',
+477 silly get     'x-cache-hits': '0',
+477 silly get     'x-timer': 'S1470085587.807229,VS0,VE119',
+477 silly get     vary: 'Accept-Encoding' } ]
+478 verbose etag https://registry.npmjs.org/matches-selector from cache
+479 verbose get saving matches-selector to C:\Users\Gilberto\AppData\Roaming\npm-cache\registry.npmjs.org\matches-selector\.cache.json
+480 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+481 silly cache afterAdd matches-selector@0.0.1
+482 verbose afterAdd C:\Users\Gilberto\AppData\Roaming\npm-cache\matches-selector\0.0.1\package\package.json not in flight; writing
+483 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+484 verbose afterAdd C:\Users\Gilberto\AppData\Roaming\npm-cache\matches-selector\0.0.1\package\package.json written
+485 silly install resolved [ { name: 'matches-selector',
+485 silly install resolved     version: '0.0.1',
+485 silly install resolved     description: 'Check if an element matches a given selector.',
+485 silly install resolved     keywords: [ 'browserify', 'CSS', 'selector' ],
+485 silly install resolved     repository:
+485 silly install resolved      { type: 'git',
+485 silly install resolved        url: 'git+https://github.com/ForbesLindesay/matches-selector.git' },
+485 silly install resolved     author: { name: 'TJ Holowaychuk' },
+485 silly install resolved     license: 'MIT',
+485 silly install resolved     readme: '\r\n# matches-selector\r\n\r\n  Check if an element matches a given selector.  For use with browserify\r\n\r\n## Installation\r\n\r\n    $ npm install matches-selector\r\n\r\n## Example\r\n\r\n```js\r\nvar matches = require(\'matches-selector\');\r\nmatches(el, \'ul li a\');\r\n// => true\r\n```\r\n\r\n## License\r\n\r\n  MIT\r\n',
+485 silly install resolved     readmeFilename: 'Readme.md',
+485 silly install resolved     _id: 'matches-selector@0.0.1',
+485 silly install resolved     dist:
+485 silly install resolved      { shasum: '1df5262243ae341c1a0804dd302048267ac713bb',
+485 silly install resolved        tarball: 'https://registry.npmjs.org/matches-selector/-/matches-selector-0.0.1.tgz' },
+485 silly install resolved     _from: 'matches-selector@0.0.1',
+485 silly install resolved     _npmVersion: '1.2.10',
+485 silly install resolved     _npmUser: { name: 'forbeslindesay', email: 'forbes@lindesay.co.uk' },
+485 silly install resolved     maintainers: [ [Object] ],
+485 silly install resolved     directories: {},
+485 silly install resolved     _shasum: '1df5262243ae341c1a0804dd302048267ac713bb',
+485 silly install resolved     _resolved: 'https://registry.npmjs.org/matches-selector/-/matches-selector-0.0.1.tgz',
+485 silly install resolved     bugs: { url: 'https://github.com/ForbesLindesay/matches-selector/issues' },
+485 silly install resolved     homepage: 'https://github.com/ForbesLindesay/matches-selector#readme' } ]
+486 info install matches-selector@0.0.1 into C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest
+487 info installOne matches-selector@0.0.1
+488 verbose installOne of matches-selector to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest not in flight; installing
+489 verbose correctMkdir C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+490 verbose lock using C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks\matches-selector-a4d91d9901838059.lock for C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest\node_modules\matches-selector
+491 silly install write writing matches-selector 0.0.1 to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest\node_modules\matches-selector
+492 verbose unbuild node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest\node_modules\matches-selector
+493 silly gentlyRm C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest\node_modules\matches-selector is being purged from base C:\Users\Gilberto\meteor\cool-polls -bars width - Copy
+494 verbose gentlyRm don't care about contents; nuking C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest\node_modules\matches-selector
+495 verbose tar unpack C:\Users\Gilberto\AppData\Roaming\npm-cache\matches-selector\0.0.1\package.tgz
+496 verbose tar unpacking to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest\node_modules\matches-selector
+497 silly gentlyRm C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest\node_modules\matches-selector is being purged
+498 verbose gentlyRm don't care about contents; nuking C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest\node_modules\matches-selector
+499 silly gunzTarPerm modes [ '777', '666' ]
+500 silly gunzTarPerm extractEntry package.json
+501 silly gunzTarPerm extractEntry .npmignore
+502 silly gunzTarPerm extractEntry index.js
+503 silly gunzTarPerm extractEntry component.json
+504 silly gunzTarPerm extractEntry Makefile
+505 silly gunzTarPerm extractEntry Readme.md
+506 silly gunzTarPerm extractEntry test/mocha.js
+507 silly gunzTarPerm extractEntry test/tests.js
+508 silly gunzTarPerm extractEntry test/index.html
+509 silly gunzTarPerm extractEntry test/mocha.css
+510 verbose write writing to C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest\node_modules\matches-selector\package.json
+511 info preinstall matches-selector@0.0.1
+512 verbose readDependencies loading dependencies from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest\node_modules\matches-selector\package.json
+513 verbose readDependencies loading dependencies from C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest\node_modules\matches-selector\package.json
+514 silly install resolved []
+515 verbose about to build C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest\node_modules\matches-selector
+516 info build C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest\node_modules\matches-selector
+517 info linkStuff matches-selector@0.0.1
+518 silly linkStuff matches-selector@0.0.1 has C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest\node_modules as its parent node_modules
+519 verbose linkBins matches-selector@0.0.1
+520 verbose linkMans matches-selector@0.0.1
+521 verbose rebuildBundles matches-selector@0.0.1
+522 info install matches-selector@0.0.1
+523 info postinstall matches-selector@0.0.1
+524 verbose unlock done using C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks\matches-selector-a4d91d9901838059.lock for C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest\node_modules\matches-selector
+525 verbose about to build C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest
+526 info build C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest
+527 info linkStuff closest@0.0.1
+528 silly linkStuff closest@0.0.1 has C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules as its parent node_modules
+529 verbose linkBins closest@0.0.1
+530 verbose linkMans closest@0.0.1
+531 verbose rebuildBundles closest@0.0.1
+532 verbose rebuildBundles [ 'matches-selector' ]
+533 info install closest@0.0.1
+534 info postinstall closest@0.0.1
+535 verbose unlock done using C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks\closest-eaccf8ec175998ae.lock for C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate\node_modules\closest
+536 verbose about to build C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate
+537 info build C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate
+538 info linkStuff delegate@3.0.1
+539 silly linkStuff delegate@3.0.1 has C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules as its parent node_modules
+540 verbose linkBins delegate@3.0.1
+541 verbose linkMans delegate@3.0.1
+542 verbose rebuildBundles delegate@3.0.1
+543 verbose rebuildBundles [ 'closest' ]
+544 info install delegate@3.0.1
+545 info postinstall delegate@3.0.1
+546 verbose unlock done using C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks\delegate-3106cd0d64eb78e3.lock for C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener\node_modules\delegate
+547 verbose about to build C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener
+548 info build C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener
+549 info linkStuff good-listener@1.1.7
+550 silly linkStuff good-listener@1.1.7 has C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules as its parent node_modules
+551 verbose linkBins good-listener@1.1.7
+552 verbose linkMans good-listener@1.1.7
+553 verbose rebuildBundles good-listener@1.1.7
+554 verbose rebuildBundles [ 'delegate' ]
+555 info install good-listener@1.1.7
+556 info postinstall good-listener@1.1.7
+557 verbose unlock done using C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks\good-listener-066bac9139f84c77.lock for C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard\node_modules\good-listener
+558 verbose about to build C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard
+559 info build C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard
+560 info linkStuff clipboard@1.5.12
+561 silly linkStuff clipboard@1.5.12 has C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules as its parent node_modules
+562 verbose linkBins clipboard@1.5.12
+563 verbose linkMans clipboard@1.5.12
+564 verbose rebuildBundles clipboard@1.5.12
+565 verbose rebuildBundles [ 'good-listener', 'select', 'tiny-emitter' ]
+566 info install clipboard@1.5.12
+567 info postinstall clipboard@1.5.12
+568 verbose unlock done using C:\Users\Gilberto\AppData\Roaming\npm-cache\_locks\clipboard-7af14225c2a9c7d9.lock for C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\node_modules\clipboard
+569 verbose validateInstall loading C:\Users\Gilberto\meteor\cool-polls -bars width - Copy\package.json for validation
+570 verbose stack Error: The package react@15.0.2 does not satisfy its siblings' peerDependencies requirements!
+570 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+570 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
+570 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+570 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+570 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+570 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+570 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+570 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+570 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+570 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+571 verbose cwd C:\Users\Gilberto\meteor\cool-polls -bars width - Copy
+572 error Windows_NT 6.1.7601
+573 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "--save" "clipboard"
+574 error node v4.4.0
+575 error npm  v2.14.20
+576 error code EPEERINVALID
+577 error peerinvalid The package react@15.0.2 does not satisfy its siblings' peerDependencies requirements!
+577 error peerinvalid Peer react-dom@15.0.2 wants react@^15.0.2
+577 error peerinvalid Peer react-masonry-component@4.0.4 wants react@^0.14.0 || ^15.0.0-0
+577 error peerinvalid Peer react-mounter@1.2.0 wants react@0.14.x || 15.x.x
+577 error peerinvalid Peer react-addons-pure-render-mixin@15.2.1 wants react@^15.2.1
+578 verbose exit [ 1, true ]
