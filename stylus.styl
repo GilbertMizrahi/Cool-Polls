@@ -1,0 +1,450 @@
+normalize-css()
+
+// Material Shadows
+shadow-level(l = 1)
+    if l == 1
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+    if l == 2
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+    if l == 3
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+
+// Common Transition
+trans($sec = 0.3s)
+    transition: all $sec ease
+
+html
+    box-sizing border-box
+    font-size 16px
+    //font-range 420px 1280px
+    //font-family Helvetica, Arial, sans-serif
+
+*, *:before, *:after
+    box-sizing: inherit
+
+z = {
+    lowest: 1,
+    header: 7
+}
+
+$large = 960px
+$med = 768px
+$very-small = 350px
+
+
+$content-top-normal = 60px
+
+.site
+  display flex
+  min-height 100vh
+  flex-direction column
+
+.site-content
+  flex 1
+
+.footer
+  color #ddd
+  background: #0B485C
+  margin 0
+  width 100%
+  padding 10px
+  z-index: z.header
+
+.header
+  fixed top left
+  width 100%
+  margin 0
+  z-index: z.header
+  shadow-level(2)
+  clearfix()
+
+  .flex-nav
+    display flex
+    justify-content space-between
+    background-color #357185
+    color #FFF
+    margin 0
+    padding-right 10px
+    padding-left 10px
+    .header-logo
+      height 50px
+      margin-right 15px
+      padding 0
+      h1
+        margin 0
+        padding 7px 5px 0 5px
+        font-size 1.5em
+        +below($large)
+          font-size 1.2em
+          padding 12px 3px 0 3px
+
+  .header-section
+    display flex
+    align-items center
+    +below($large)
+       flex-direction column
+       &.header-links
+          align-items flex-end
+     &.header-login
+       height 50px
+         //padding-top 15px
+     &.header-links
+       flex 1 1
+
+  .nav-item
+    text-align center
+    height 50px
+    padding 15px 15px 0 15px
+    margin-right 10px
+    font-size 1.2em
+    a
+      &:link
+        text-decoration none
+        color white
+      &:hover
+        color #ddd
+        text-decoration none
+      &:visited
+        color white
+        text-decoration none
+      &:active
+        color white
+        text-decoration none
+    &:hover
+      background rgba(0,0,0,0.2)
+      a
+        color #A3C2CC
+    &.active
+      background rgba(0,0,0,0.3)
+
+    +below($large)
+      display none
+      &.open
+        display block
+
+    &.toggle-nav
+      display none
+      +below($large)
+        display block
+        color #fff
+        font-size 1.4em
+        text-align right
+      +below($very-small)
+        font-size 1.2em
+
+  .header-logo
+    &:hover
+      background rgba(0,0,0,0)
+    &.active
+      background rgba(0,0,0,0)
+    display block
+
+.nav-login
+  list-style none
+  min-width 130px
+  text-align right
+  .dropdown
+    a
+      color lightgrey
+  +below($large)
+    display none
+
+
+.dropdown-menu
+  list-style none
+  display none
+  position absolute
+  margin-top 17px
+  shadow-level(2)
+  z-index: z.nav
+  padding 10px
+  background-color #357185
+  a
+    color lightgrey
+    text-decoration: none;
+  &.open
+    display block
+
+.main-layout
+  lost-center 90%
+  margin-top $content-top-normal
+  margin-bottom 20px
+
+.site-content
+  width 100%
+
+.home
+  background blue
+  color #FFF
+  font-size 2em
+  text-align center
+  padding 60px
+  h2
+    margin 0
+
+.polls
+  display flex
+  flex-flow row wrap
+
+.poll
+    flex 1 1 380px
+    //width 380px
+    background #FFF
+    padding 5px 20px 10px 20px
+    //margin-bottom 20px
+    margin 10px
+    position relative
+    z-index lowest//1
+    shadow-level(1)
+    trans()
+    display flex
+    flex-flow column nowrap
+    justify-content space-between
+    .card-section
+      flex 1 1
+    .poll-footer
+      margin-top 10px
+      border-top: rgba(0,0,0, 0.2) solid 1px
+      flex-grow 0
+
+    h3
+        font-size 1.2em
+        opacity 0.7
+        width 80%
+        margin 2px
+
+    .question
+      margin-top 0
+      margin-bottom 10px
+      padding-bottom 5px
+      border-bottom: rgba(0,0,0, 0.2) solid 2px
+    button
+        margin-top 20px
+
+    .rec
+      fill lightblue
+
+    .rec-bgd
+      fill #eee
+      &.view
+        fill lightblue
+        fill-opacity 0.3
+        &:hover
+          fill-opacity 0.8
+
+    .bar
+      position relative
+      width 90%
+      display inline-block
+      &.view
+        width 100%
+        cursor pointer
+
+    .badge
+      margin-top: 3px;
+      padding:  0 6px;
+      line-height: 18px;
+      font-size: 12px;
+      background: #068AB8;
+      border-radius: 5px;
+      color #eee
+      display inline-block
+
+    .badge-info
+      font-size: 16px;
+      margin-top 9px
+      background: orange
+    .pull-right
+      float right
+
+    .option
+      position: absolute;
+      z-index: 1;
+      left: 5px;
+      top: 0;
+      font-size 1.2em
+      &.posted
+        pointer-events none
+        top 2px
+    .svg //.svg-voted
+      display inline-block
+    .poll-footer
+      margin-top 10px
+      border-top: rgba(0,0,0, 0.2) solid 1px
+
+    &:hover
+        shadow-level(3)
+        animation card 0.6s ease 1 forwards
+
+    .icons
+      cursor pointer
+      position absolute
+      top 0
+      right 0
+      font-size 1.4em
+      display block
+      padding-right 10px
+      margin-top 5px
+      trans()
+    .fa
+      color grey
+      padding-right 5px
+      &:hover
+          color red
+          opacity 0.6
+
+.btn, button
+  margin-top 10px
+  cursor pointer
+  background #524763
+  hover-darken 50%
+  color #FFF
+  text-decoration none
+  text-transform uppercase
+  padding 5px 15px
+  border-radius 2px
+  font-weight 800
+  &.btn-more
+    width 100%
+
+.signin
+  width 100%
+  min-width 300px
+  max-width 600px
+  background #FFF
+  padding 5px 20px 10px 20px
+  margin auto
+  position relative
+  z-index 1
+  shadow-level(1)
+  trans()
+  h2
+    font-size: 1.4em;
+    opacity: 0.7;
+    width 100%
+    margin 2px 0 10px 0
+    border-bottom: rgba(0,0,0, 0.2) solid 2px
+  &:hover
+    shadow-level(3)
+    animation card 0.6s ease 1 forwards
+
+.register, .signin
+  .field
+    padding 4px
+    margin 1px
+    width 100%
+    label
+      display block
+      width 100%
+      font-weight 700
+      &.error
+        color red
+        font-weight 400
+        trans()
+    input
+      display block
+      padding 5px
+      border 1px solid #ccc
+      border-radius 0px
+      width 90%
+  div.buttons
+    a
+      padding-left 10px
+
+  div.message
+    color red
+    font-weight 400
+    padding-top 7px
+    trans()
+
+.new-poll
+  width 95%
+  max-width 800px
+  min-width 300px
+  background #fff
+  padding 0 20px 20px
+  margin-bottom 20px
+  position relative
+  z-index 1
+  shadow-level(2)
+  trans()
+  h3
+    font-size: 1.2em;
+    opacity: 0.7;
+    width 80%
+    margin 2px
+  .questionInput
+    font-size: 1.4em;
+    width 100%
+    padding 5px
+    margin-top 5px
+    margin-bottom 5px
+    border none
+    font-weight 600
+  .optionInput
+    flex 1 1 88%
+    border none
+    font-size 1.2em
+    background-color rgba(178,207,217, 0.6)
+    margin-bottom 3px
+    padding 5px
+    margin-right 15px
+
+  h1.new-poll-title
+    color #888
+
+.add-option
+  width 100%
+  border-radius 0
+  border none
+  box-shadow none
+  background orange
+  font-size 24px
+  padding 0
+  hover-darken 30%
+  &.hidden
+    display none
+
+
+.remove-option
+  flex 0 0 25px
+  font-size 1.8em
+  padding-left 3px
+  color orange
+  margin-right 0
+  hover-darken 30%
+  &.hidden
+    display none
+
+.input-option
+  display flex
+  vertical-align: middle
+  width 100%
+
+.poll-view
+  margin-top 20px
+  display flex
+  +below($med)
+    display block
+  .poll
+    min-width 380px
+    max-width 500px
+  .url
+    margin 20px
+    padding-right 20px
+    +below($med)
+      margin-left 0
+
+.panel-body
+  .option-item
+    display flex
+    justify-content space-between
+    .badge-holder
+      order 1
+      flex 0 0
+      height 18px
+      text-align center
+      margin-left 10px
+      //margin-top 3px
+    .bar
+      flex 1
